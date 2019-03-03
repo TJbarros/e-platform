@@ -20,18 +20,18 @@
     @yield('home')
     @include('store.layouts.footer')
     <!-- Jquery-2.2.4 JS -->
-    <script src="{{url('assets/js/jquery-2.2.4.min.js')}}"></script>
+    <script src="{{secure_asset('assets/js/jquery-2.2.4.min.js')}}"></script>
     <!-- Popper js -->
-    <script src="{{url('assets/js/popper.min.js')}}"></script>
+    <script src="{{secure_asset('assets/js/popper.min.js')}}"></script>
     <!-- Bootstrap-4 Beta JS -->
-    <script src="{{url('assets/js/bootstrap.min.js')}}"></script>
+    <script src="{{secure_asset('assets/js/bootstrap.min.js')}}"></script>
     <!-- All Plugins JS -->
-    <script src="{{url('assets/js/plugins.js')}}"></script>
+    <script src="{{secure_asset('assets/js/plugins.js')}}"></script>
     <!-- Slick Slider Js-->
-    <script src="{{url('assets/js/slick.min.js')}}"></script>
+    <script src="{{secure_asset('assets/js/slick.min.js')}}"></script>
     <!-- Footer Reveal JS -->
-    <script src="{{url('assets/js/footer-reveal.min.js')}}"></script>
+    <script src="{{secure_asset('assets/js/footer-reveal.min.js')}}"></script>
     <!-- Active JS -->
-    <script src="{{url('assets/js/active.js')}}"></script>
+    <script src="{{secure_asset('assets/js/active.js')}}"></script>
 </body>
 </html>
