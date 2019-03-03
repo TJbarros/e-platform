@@ -23,7 +23,6 @@
         </div>
         <!-- Foooter Text-->
         <div class="copyright-text">
-            <!-- ***** Removing this text is now allowed! This template is licensed under CC BY 3.0 ***** -->
             <p>Copyright ©2019 E. Platform Designed by <a href="#" target="_blank">Thiago Julierme</a></p>
         </div>
     </footer>
