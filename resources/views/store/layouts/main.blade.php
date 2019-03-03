@@ -8,11 +8,11 @@
     <title>{{$title or 'E. Platform'}}</title>
    
     <!-- Favicon -->
-    <link rel="icon" href="{{url('assets/img/icon.jpg')}}">
+    <link rel="icon" href="{{ secure_asset('assets/img/icon.jpg')}}">
     <!-- Core Stylesheet -->
-    <link href="{{url('assets/style.css')}}" rel="stylesheet">
+    <link href="{{ secure_asset('assets/style.css')}}" rel="stylesheet">
     <!-- Responsive CSS -->
-    <link href="{{url('assets/css/responsive.css')}}" rel="stylesheet">
+    <link href="{{ secure_asset('assets/css/responsive.css')}}" rel="stylesheet">
 
 </head>
 <body>
